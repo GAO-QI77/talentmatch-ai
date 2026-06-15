@@ -1,0 +1,41 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local artifacts
+*.zip
+*.tar
+*.tar.gz
+*.docx
+*.pptx
+*.xlsx
+*.log
+*.tmp
+*.bak
+
+# Local screenshots and exports
+*.png
+*.jpg
+*.jpeg
+*.webp
+talentmatch_candidates_export.csv
